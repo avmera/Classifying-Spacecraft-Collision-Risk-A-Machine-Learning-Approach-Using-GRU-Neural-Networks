@@ -1,0 +1,9 @@
+*.csv
+*.xlsx
+*.h5
+*.save
+*.ipynb_checkpoints/
+tfnv/
+venv/
+__pycache__/
+
