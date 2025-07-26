@@ -19,10 +19,23 @@ This project provides an automated classification system for satellite collision
 
 ---
 
-## Requirements
+## How to Run
 
-- Python 3.10 (recommended)
-- To install required packages, run:
-  ```bash
-  pip install -r requirements.txt
+1. **Install dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. **Train the Model**
+    ```bash
+    python train_gru.py
+    ```
+    This script preprocesses the data, trains the model, and saves the scaler and model weights.
+
+3. **Run the Interface**
+    ```bash
+    streamlit run app.py
+    ```
+    This command launches the Streamlit web interface in your browser. Enter an event ID to classify its collision risk.
+
 
